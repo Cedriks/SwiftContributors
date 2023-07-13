@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Contributor: Decodable {
+struct Contributors: Codable {
+    let contibutors: [Contributor]?
+}
+
+struct Contributor: Codable {
     let login: String
     let id: Int
     let nodeId: String

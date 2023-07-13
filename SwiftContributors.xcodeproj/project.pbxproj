@@ -17,6 +17,10 @@
 		92BB4D572A5FDBFA005DA926 /* SwiftContributorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D562A5FDBFA005DA926 /* SwiftContributorsUITests.swift */; };
 		92BB4D592A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D582A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift */; };
 		92BB4D6B2A5FDFC0005DA926 /* Contibutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D6A2A5FDFC0005DA926 /* Contibutor.swift */; };
+		92BB4D6D2A5FE0BA005DA926 /* NetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D6C2A5FE0BA005DA926 /* NetworkWorker.swift */; };
+		92BB4D6F2A5FE152005DA926 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D6E2A5FE152005DA926 /* AppConstants.swift */; };
+		92BB4D752A5FF00E005DA926 /* NetworkerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D742A5FF00E005DA926 /* NetworkerError.swift */; };
+		92BB4D772A5FF07F005DA926 /* AllContributorsNetworker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D762A5FF07F005DA926 /* AllContributorsNetworker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		92BB4D562A5FDBFA005DA926 /* SwiftContributorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContributorsUITests.swift; sourceTree = "<group>"; };
 		92BB4D582A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContributorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92BB4D6A2A5FDFC0005DA926 /* Contibutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contibutor.swift; sourceTree = "<group>"; };
+		92BB4D6C2A5FE0BA005DA926 /* NetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWorker.swift; sourceTree = "<group>"; };
+		92BB4D6E2A5FE152005DA926 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		92BB4D742A5FF00E005DA926 /* NetworkerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerError.swift; sourceTree = "<group>"; };
+		92BB4D762A5FF07F005DA926 /* AllContributorsNetworker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContributorsNetworker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 				92BB4D402A5FDBF9005DA926 /* LaunchScreen.storyboard */,
 				92BB4D432A5FDBF9005DA926 /* Info.plist */,
 				92BB4D3B2A5FDBF3005DA926 /* SwiftContributors.xcdatamodeld */,
+				92BB4D6E2A5FE152005DA926 /* AppConstants.swift */,
 			);
 			path = SwiftContributors;
 			sourceTree = "<group>";
@@ -158,6 +167,9 @@
 		92BB4D682A5FDEAB005DA926 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				92BB4D6C2A5FE0BA005DA926 /* NetworkWorker.swift */,
+				92BB4D742A5FF00E005DA926 /* NetworkerError.swift */,
+				92BB4D762A5FF07F005DA926 /* AllContributorsNetworker.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -300,9 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BB4D752A5FF00E005DA926 /* NetworkerError.swift in Sources */,
 				92BB4D372A5FDBF3005DA926 /* ViewController.swift in Sources */,
 				92BB4D3D2A5FDBF3005DA926 /* SwiftContributors.xcdatamodeld in Sources */,
+				92BB4D6D2A5FE0BA005DA926 /* NetworkWorker.swift in Sources */,
+				92BB4D772A5FF07F005DA926 /* AllContributorsNetworker.swift in Sources */,
 				92BB4D332A5FDBF3005DA926 /* AppDelegate.swift in Sources */,
+				92BB4D6F2A5FE152005DA926 /* AppConstants.swift in Sources */,
 				92BB4D352A5FDBF3005DA926 /* SceneDelegate.swift in Sources */,
 				92BB4D6B2A5FDFC0005DA926 /* Contibutor.swift in Sources */,
 			);
