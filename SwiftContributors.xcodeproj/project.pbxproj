@@ -16,6 +16,7 @@
 		92BB4D4D2A5FDBFA005DA926 /* SwiftContributorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D4C2A5FDBFA005DA926 /* SwiftContributorsTests.swift */; };
 		92BB4D572A5FDBFA005DA926 /* SwiftContributorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D562A5FDBFA005DA926 /* SwiftContributorsUITests.swift */; };
 		92BB4D592A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D582A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift */; };
+		92BB4D6B2A5FDFC0005DA926 /* Contibutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D6A2A5FDFC0005DA926 /* Contibutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		92BB4D522A5FDBFA005DA926 /* SwiftContributorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftContributorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BB4D562A5FDBFA005DA926 /* SwiftContributorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContributorsUITests.swift; sourceTree = "<group>"; };
 		92BB4D582A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContributorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92BB4D6A2A5FDFC0005DA926 /* Contibutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contibutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,6 @@
 				92BB4D682A5FDEAB005DA926 /* NetworkManager */,
 				92BB4D322A5FDBF3005DA926 /* AppDelegate.swift */,
 				92BB4D342A5FDBF3005DA926 /* SceneDelegate.swift */,
-				92BB4D362A5FDBF3005DA926 /* ViewController.swift */,
 				92BB4D3E2A5FDBF9005DA926 /* Assets.xcassets */,
 				92BB4D402A5FDBF9005DA926 /* LaunchScreen.storyboard */,
 				92BB4D432A5FDBF9005DA926 /* Info.plist */,
@@ -135,6 +136,7 @@
 		92BB4D652A5FDDAB005DA926 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92BB4D6A2A5FDFC0005DA926 /* Contibutor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +165,7 @@
 		92BB4D692A5FDECB005DA926 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				92BB4D362A5FDBF3005DA926 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				92BB4D3D2A5FDBF3005DA926 /* SwiftContributors.xcdatamodeld in Sources */,
 				92BB4D332A5FDBF3005DA926 /* AppDelegate.swift in Sources */,
 				92BB4D352A5FDBF3005DA926 /* SceneDelegate.swift in Sources */,
+				92BB4D6B2A5FDFC0005DA926 /* Contibutor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
