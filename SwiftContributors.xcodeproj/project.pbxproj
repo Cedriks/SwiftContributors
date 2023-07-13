@@ -99,6 +99,11 @@
 		92BB4D312A5FDBF3005DA926 /* SwiftContributors */ = {
 			isa = PBXGroup;
 			children = (
+				92BB4D652A5FDDAB005DA926 /* Model */,
+				92BB4D672A5FDDBF005DA926 /* View */,
+				92BB4D662A5FDDB5005DA926 /* ViewModel */,
+				92BB4D692A5FDECB005DA926 /* Controller */,
+				92BB4D682A5FDEAB005DA926 /* NetworkManager */,
 				92BB4D322A5FDBF3005DA926 /* AppDelegate.swift */,
 				92BB4D342A5FDBF3005DA926 /* SceneDelegate.swift */,
 				92BB4D362A5FDBF3005DA926 /* ViewController.swift */,
@@ -125,6 +130,41 @@
 				92BB4D582A5FDBFA005DA926 /* SwiftContributorsUITestsLaunchTests.swift */,
 			);
 			path = SwiftContributorsUITests;
+			sourceTree = "<group>";
+		};
+		92BB4D652A5FDDAB005DA926 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92BB4D662A5FDDB5005DA926 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92BB4D672A5FDDBF005DA926 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92BB4D682A5FDEAB005DA926 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		92BB4D692A5FDECB005DA926 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
