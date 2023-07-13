@@ -29,9 +29,14 @@ final class AllContributorsNetworker: AllContributorsNetworking {
         
         do {
             let (data, _) = try await urlSession.data(from: url)
+            dump (data)
             let items = try JSONDecoder().decode([Contributor].self, from: data)
-            contributors = items
+
+           contributors = items
+            print("Contributors count = \(contributors.count)")
+               
         } catch {
+            dump(error)
             print("Fetching \(url.absoluteString)...")
             throw NetworkerError.dataRecoveryFailure
         }

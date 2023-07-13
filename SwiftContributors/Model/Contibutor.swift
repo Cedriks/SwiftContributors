@@ -7,30 +7,30 @@
 
 import Foundation
 
-struct Contributors: Codable {
+struct Result: Codable {
     let contibutors: [Contributor]?
 }
 
 struct Contributor: Codable {
-    let login: String
-    let id: Int
-    let nodeId: String
-    let avatarUrl: URL
-    let gravatarId: String
-    let url: URL
-    let htmlUrl: URL
-    let followersUrl: URL
-    let followingUrl: URL
-    let gistsUrl: URL
-    let starredUrl: URL
-    let subscriptionsUrl: URL
-    let organizationsUrl: URL
-    let reposUrl: URL
-    let eventsUrl: URL
-    let receivedEventsUrl: URL
-    let type: String
-    let siteAdmin: Bool
-    let contributions: Int
+    let login: String?
+    let id: Int?
+    let nodeId: String?
+    let avatarUrl: URL?
+    let gravatarId: String?
+    let url: URL?
+    let htmlUrl: URL?
+    let followersUrl: URL?
+    let followingUrl: URL? = URL(string: "")
+    let gistsUrl: URL? = URL(string: "")
+    let starredUrl: URL? = URL(string: "")
+    let subscriptionsUrl: URL?
+    let organizationsUrl: URL?
+    let reposUrl: URL?
+    let eventsUrl: URL? = URL(string: "")
+    let receivedEventsUrl: URL?
+    let type: String?
+    let siteAdmin: Bool?
+    let contributions: Int?
 
     private enum CodingKeys: String, CodingKey {
         case login

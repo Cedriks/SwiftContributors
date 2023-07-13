@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContributorsViewController.swift
 //  SwiftContributors
 //
 //  Created by Cedrik on 13/07/2023.
@@ -7,7 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContributorsViewController: UIViewController {
+    
+    private var viewModel = ContributorsViewModel()
 
     lazy private var sampleLabel: UILabel = {
            let label = UILabel()
@@ -22,6 +24,7 @@ class ViewController: UIViewController {
            self.view.backgroundColor = UIColor.black
            self.view.addSubview(self.sampleLabel)
            self.setUpConstraints()
+           loadContributors()
        }
 
        func setUpConstraints() {
@@ -31,5 +34,11 @@ class ViewController: UIViewController {
            ]
            NSLayoutConstraint.activate(sampleLabelConstraints)
        }
+    
+    private func loadContributors() {
+        Task {
+            await self.viewModel.getAllContributors()
+        }
+    }
 }
 
