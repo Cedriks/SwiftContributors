@@ -22,6 +22,7 @@
 		92BB4D752A5FF00E005DA926 /* NetworkerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D742A5FF00E005DA926 /* NetworkerError.swift */; };
 		92BB4D772A5FF07F005DA926 /* AllContributorsNetworker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D762A5FF07F005DA926 /* AllContributorsNetworker.swift */; };
 		92BB4D792A5FF49B005DA926 /* ContributorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D782A5FF49B005DA926 /* ContributorsViewModel.swift */; };
+		92BB4D7D2A60037E005DA926 /* ContributorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BB4D7C2A60037E005DA926 /* ContributorCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		92BB4D742A5FF00E005DA926 /* NetworkerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerError.swift; sourceTree = "<group>"; };
 		92BB4D762A5FF07F005DA926 /* AllContributorsNetworker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContributorsNetworker.swift; sourceTree = "<group>"; };
 		92BB4D782A5FF49B005DA926 /* ContributorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorsViewModel.swift; sourceTree = "<group>"; };
+		92BB4D7C2A60037E005DA926 /* ContributorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		92BB4D672A5FDDBF005DA926 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				92BB4D7C2A60037E005DA926 /* ContributorCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BB4D752A5FF00E005DA926 /* NetworkerError.swift in Sources */,
+				92BB4D7D2A60037E005DA926 /* ContributorCollectionViewCell.swift in Sources */,
 				92BB4D372A5FDBF3005DA926 /* ContributorsViewController.swift in Sources */,
 				92BB4D3D2A5FDBF3005DA926 /* SwiftContributors.xcdatamodeld in Sources */,
 				92BB4D6D2A5FE0BA005DA926 /* NetworkWorker.swift in Sources */,
@@ -499,8 +503,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,8 +531,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
